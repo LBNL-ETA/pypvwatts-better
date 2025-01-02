@@ -5,7 +5,6 @@ Python wrapper for NREL PVWatt version 6.
 from .pvwattsresult import PVWattsResult
 from .pvwattserror import PVWattsError, PVWattsValidationError
 import requests
-from .__version__ import VERSION
 
 import functools
 import sys
@@ -244,7 +243,7 @@ class PVWatts():
 
     @property
     def version(self):
-        return VERSION
+        return "3.0.6"
 
     @omnimethod
     def get_data(self, params={}):
