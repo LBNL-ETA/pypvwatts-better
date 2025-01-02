@@ -9,6 +9,8 @@ import requests
 import functools
 import sys
 
+VERSION = "3.0.6"
+
 if sys.version_info > (3,):
     long = int
     unicode = str
@@ -243,7 +245,7 @@ class PVWatts():
 
     @property
     def version(self):
-        return "3.0.6"
+        return VERSION
 
     @omnimethod
     def get_data(self, params={}):
