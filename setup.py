@@ -9,7 +9,7 @@ from pypvwatts.__version__ import VERSION
 
 setup(
     name='pypvwatts',
-    version=VERSION,
+    version="3.0.6",
     author='Miguel Paolino',
     author_email='mpaolino@gmail.com',
     url='https://github.com/mpaolino/pypvwatts',
