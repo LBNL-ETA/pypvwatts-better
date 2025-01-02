@@ -5,8 +5,6 @@ try:
 except ImportError:
     from distutils.core import setup
 
-from pypvwatts.__version__ import VERSION
-
 setup(
     name='pypvwatts',
     version="3.0.6",
